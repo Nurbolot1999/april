@@ -35,5 +35,5 @@ print(math. factoril (5))
 # print(random.randrange(2,6))
 # print(random. choices(n, k=))
 
-import my_modul
+import python.my_modul as my_modul
 print(my_modul)

@@ -55,5 +55,5 @@ else:
 
 
 
-import my_modul as m
+import python.my_modul as m
 print()

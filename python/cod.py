@@ -184,14 +184,63 @@
 
 
 
-def генерерация_список():
-    N = int(input("веддите число N: "))
-    список = []
+# def генерерация_список():
+#     N = int(input("веддите число N: "))
+#     список = []
 
-    for i in range(1, N +1):
-        список.append (i) 
-        return список
+#     for i in range(1, N +1):
+#         список.append (i) 
+#         return список
     
-print(генерерация_список())
+# print(генерерация_список())
 
 
+
+
+
+
+# @unical
+# def random_100():
+#         lst = []
+#         for i in range(100):
+#             result = random.randint(10, 50)
+#             lst.append(result)
+#         return lst
+# random_100()# func()     
+
+
+
+# import random
+
+# def unical (random_100):
+#     def individual():
+#         result = list(random_100())
+#         res = (random.choices(result, k=50))
+#         res = list(set (res))
+#         random.shuffle(res)
+
+
+
+
+
+
+
+# import telebot
+
+# bot = telebot.TeleBot('6886423730:AAFXG_QHAfJ7wavEamSZTCJXlp6stInZGDE')
+
+# @bot.message_handler (commands=['help'])
+# def main(message):
+#    bot.send_message(message.chat.id,f'hello,{message.from_user.first_name}{message.from_user.last_name}')
+
+
+
+# @bot.message_handler(commands=['start'])
+# def main(message):
+#     bot.send_message(message.chat.id, '<b>hello, my dear</b> <em>frind</em>', parse_mode="html")
+
+# @bot.message_handler(commands=['help'])
+# def main(message):
+#   bot.send_message (message.chat.id, f'hello,{message.from_user.first_name} {message.from_user.last_name}')
+
+# bot.polling(none_stop=True)
